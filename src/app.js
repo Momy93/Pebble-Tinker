@@ -217,7 +217,7 @@ menu.on('select', function(e)
                 }, 500);
                 win.on('click', 'back', function(e) 
                 {
-                    clearInterval(intervalID); //Bad
+                    clearInterval(intervalID);
                     win.hide();
                 });
             });
